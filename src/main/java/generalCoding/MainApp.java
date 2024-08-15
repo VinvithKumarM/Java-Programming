@@ -46,5 +46,7 @@ public class MainApp {
         System.out.println("String is balanced ? "+checkStringIsBalancedCharacters.checkStringIsBalancedOrNot(s));
         countOccurrencesOfEachChar countOccurrencesOfEachChar = new countOccurrencesOfEachChar();
         System.out.println("get count of each occurrences : "+countOccurrencesOfEachChar.getCountOccurrences());
+        countOfCharacters countOfCharacters = new countOfCharacters();
+        System.out.println("Count of Characters String is : "+countOfCharacters.getCountOfChars());
     }
 }
